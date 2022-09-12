@@ -45,7 +45,7 @@ io.on("connection", (socket) => {
 });
 
 //mongoDB connection
-mongoose.connect(process.env.DB_URL, {
+mongoose.connect("mongodb+srv://djtwdix:danielspassword@pawly-db.k9rol.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
