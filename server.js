@@ -33,7 +33,7 @@ app.use(cookieSession({
 //websockets with CORS init
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3002",
+    origin: "https://pawly-db5d9.web.app",
     methods: ["GET", "POST"],
   },
 });
